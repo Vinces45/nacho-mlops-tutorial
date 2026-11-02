@@ -17,7 +17,8 @@ jobs:
       AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-      MLFLOW_URL: ${{ vars.MLFLOW_URL }}
+      MLFLOW_TRACKING_URI: ${{ vars.MLFLOW_URL }}
+      MLFLOW_URI: ${{ vars.MLFLOW_URL }}
       EXPERIMENT_NAME: ${{ vars.EXPERIMENT_NAME }}
       MODEL_URI: ${{ vars.MODEL_URI }}
 
